@@ -1,8 +1,11 @@
 package spring.example.controller;
 
-import spring.example.controller.presentation.LoginBean;
+import org.springframework.stereotype.Controller;
+
+import spring.example.presentation.LoginBean;
 import spring.example.service.LoginService;
 
+@Controller
 public class LoginController {
 	LoginService loginServiceImpl;
 	public LoginController(LoginService loginService) {

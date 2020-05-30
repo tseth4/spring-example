@@ -1,6 +1,6 @@
 package spring.example.dao;
 
-import spring.example.controller.presentation.LoginBean;
+import spring.example.presentation.LoginBean;
 
 public interface LoginDAO {
 

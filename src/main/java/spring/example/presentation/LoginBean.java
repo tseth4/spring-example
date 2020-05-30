@@ -1,4 +1,4 @@
-package spring.example.controller.presentation;
+package spring.example.presentation;
 
 public class LoginBean {
 	private String userName;

@@ -1,8 +1,11 @@
 package spring.example.service;
 
-import spring.example.controller.presentation.LoginBean;
-import spring.example.dao.LoginDAO;
+import org.springframework.stereotype.Service;
 
+import spring.example.dao.LoginDAO;
+import spring.example.presentation.LoginBean;
+
+@Service
 public class LoginServiceImpl implements LoginService {
 	LoginDAO loginDAOFileImpl;
 	

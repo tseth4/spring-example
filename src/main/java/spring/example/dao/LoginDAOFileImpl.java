@@ -1,7 +1,10 @@
 package spring.example.dao;
 
-import spring.example.controller.presentation.LoginBean;
+import org.springframework.stereotype.Repository;
 
+import spring.example.presentation.LoginBean;
+
+@Repository
 public class LoginDAOFileImpl implements LoginDAO {
 	
 	public boolean validateLogin(LoginBean loginBean) {
